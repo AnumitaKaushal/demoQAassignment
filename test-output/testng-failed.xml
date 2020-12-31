@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Envision Automation Demos]">
+  <test thread-count="5" name="Verify User Registration Functionality(failed)">
+    <classes>
+      <class name="com.automation.tests.UserRegistrationTests.VerifyUserRegistrationTests">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="VerifyUserRegistration"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.tests.UserRegistrationTests.VerifyUserRegistrationTests -->
+    </classes>
+  </test> <!-- Verify User Registration Functionality(failed) -->
+</suite> <!-- Failed suite [Envision Automation Demos] -->

@@ -1,0 +1,24 @@
+Selenium Assignment - 21st November 2020
+
+Automate Test Case to Verify User Registration Functionality
+
+In order to verify the user registration functionality,
+you need to launch URL[ http://demo.automationtesting.in/Register.html ] and follow below steps:
+
+1.Enter FullName
+2.Enter Lastname
+3.Enter Address
+4.Enter Email Address
+5.Upload Photo : Any Random Photo of your choice
+6.Enter PhoneNo: 9999112233
+7.Select Gender (Verify if it is selected, check the class property of input tag inside label tag)
+8.Select Any Hobby out of 3 hobbies (Hint: Try To verify if checkbox selected, use element.isSelected() method, if method returns true, then it is selected)
+9.Select Language: English (click the language box, then click on English - either by mouseHover or by using linkText)
+10.Select Any Skill from Skills
+11.Select Country out of the options
+12.Select Country from Combobox country : United States of America
+13.Select Date of Birth : Your date of birth (fake ones are also accepted, if you want to hide real :) )
+14.Enter Password
+15.Enter confirm Password
+16.Hit Submit button
+17.Verify it takes you to the WebTable page.

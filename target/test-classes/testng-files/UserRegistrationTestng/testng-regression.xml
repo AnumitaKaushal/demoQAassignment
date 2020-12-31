@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Envision Automation Demos">
+	<test name="Verify User Registration Functionality">
+		<classes>
+			<class
+				name="com.automation.tests.UserRegistrationTests.VerifyUserRegistrationTests">
+				<methods>
+					<include name="LandOnWebsite" />
+					<include name="VerifyUserRegistration" />
+					<!-- <include name="LandOnNextPage" /> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

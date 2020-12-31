@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="1" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Envision Automation Demos" duration-ms="7233" started-at="2020-12-25T23:17:17 EST" finished-at="2020-12-25T23:17:25 EST">
+    <groups>
+    </groups>
+    <test name="Verify User Registration Functionality" duration-ms="7233" started-at="2020-12-25T23:17:17 EST" finished-at="2020-12-25T23:17:25 EST">
+      <class name="com.automation.tests.UserRegistrationTests.VerifyUserRegistrationTests">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:com.automation.tests.UserRegistrationTests.VerifyUserRegistrationTests@4d95d2a2]" name="initBrowser" is-config="true" duration-ms="57" started-at="2020-12-25T23:17:17 EST" finished-at="2020-12-25T23:17:17 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="LandOnWebsite()[pri:1, instance:com.automation.tests.UserRegistrationTests.VerifyUserRegistrationTests@4d95d2a2]" name="LandOnWebsite" duration-ms="6584" started-at="2020-12-25T23:17:17 EST" finished-at="2020-12-25T23:17:24 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LandOnWebsite -->
+        <test-method status="SKIP" signature="VerifyUserRegistration(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.automation.tests.UserRegistrationTests.VerifyUserRegistrationTests@4d95d2a2]" name="VerifyUserRegistration" duration-ms="0" started-at="2020-12-25T23:17:25 EST" data-provider="basicDataProvider" finished-at="2020-12-25T23:17:25 EST">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:145)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:797)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+at com.automation.demoqa.utils.DataProviderUtils.getTestDataFromDP(DataProviderUtils.java:33)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:76)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserRegistration -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.tests.UserRegistrationTests.VerifyUserRegistrationTests@4d95d2a2]" name="tearDown" is-config="true" duration-ms="5" started-at="2020-12-25T23:17:25 EST" finished-at="2020-12-25T23:17:25 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.UserRegistrationTests.VerifyUserRegistrationTests -->
+    </test> <!-- Verify User Registration Functionality -->
+  </suite> <!-- Envision Automation Demos -->
+</testng-results>
